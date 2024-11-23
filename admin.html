@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="website icon" href="image/GamesHeavenn.png">
+</head>
+<body>
+    <div class="admin-wrapper">
+        <!-- Admin Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <a href="index.html"><img src="image/GamesHeavenn.png" alt="Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#viewSales" class="nav-link">View Sales</a></li>
+                    <li><a href="#addRemoveProducts" class="nav-link">Add/Remove Products</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Admin Content Area -->
+        <div class="admin-content">
+            <section id="viewSales" class="content-section">
+                <h2>Sales and Best Sellers</h2>
+                From: <input type="date" id="date">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                To: <input type="date" id="date">
+                <br> <br>
+                <div class="sales-overview">
+                    <div class="overview-box">
+                        <h3>Total Sales</h3>
+                        <p>50000.0SR</p>
+                    </div>
+                    <div class="overview-box">
+                        <h3>Best Seller</h3>
+                        <p> <a href="elden_ring.html">Elden Ring</a> </p>
+                    </div>
+                </div>
+                <div class="sales-chart">
+                    <img src="image/لقطة شاشة 2024-11-21 205502.png">
+                </div>
+            </section>
+            <br><br>
+            <section id="addRemoveProducts" class="content-section">
+                <h2>Add/Remove Products</h2>
+                <div class="product-actions">
+                    <div class="action-box">
+                        <h3>Add New Product</h3>
+                        <br>
+                        <button class="btn">Add Product</button>
+                    </div>
+                    <div class="action-box">
+                        <h3>Remove Product</h3>
+                        <br>
+                        <button class="btn">Remove Product</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
